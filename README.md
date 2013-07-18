@@ -9,6 +9,6 @@ Phalcon demo console application
 ## Examples
 
 * php console.php
-* php console.php mainTask/main
-* php console.php myTask/calculate a=1 b=2
+* php console.php main/main
+* php console.php my/calculate a=1 b=2
 
