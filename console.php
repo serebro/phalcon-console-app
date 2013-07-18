@@ -2,8 +2,7 @@
 
 defined('APPLICATION_PATH') || define('APPLICATION_PATH', dirname(__FILE__));
 
-use Phalcon\DI\FactoryDefault\CLI as CliDI,
-    Phalcon\CLI\Console as ConsoleApp;
+use Phalcon\DI\FactoryDefault\CLI as CliDI, Phalcon\CLI\Console as ConsoleApp;
 
 $di = new CliDI();
 
