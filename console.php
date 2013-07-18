@@ -42,8 +42,7 @@ $di->set('dispatcher', array(
 );
 
 // Console application
-$console = new ConsoleApp();
-$console->setDi($di);
+$console = new ConsoleApp($di);
 
 // Parse command line parameters "console.php taskName/actionName param1=value1 param2=value2"
 $handle_params = array();
